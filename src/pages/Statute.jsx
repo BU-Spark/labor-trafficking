@@ -162,6 +162,7 @@ export default class Statute extends Component {
                   <a
                     target="_blank"
                     href="https://www.justice.gov/crt/human-trafficking-prosecution-unit-htpu"
+                    rel="noopener noreferrer"
                     style={{
                       fontWeight: 'normal',
                       textDecoration: 'underline',

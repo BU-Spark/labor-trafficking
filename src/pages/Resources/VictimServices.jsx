@@ -77,12 +77,12 @@ export default class Resources extends Component {
         </div>
         <div className="resourcesContent">
           {(() => {
-            if (this.state.resourcesPage == 0)
+            if (this.state.resourcesPage === 0)
               return (
                 <div
                   name="Emergency"
                   style={{
-                    display: this.state.resourcesPage == 0 ? 'block' : 'none',
+                    display: this.state.resourcesPage === 0 ? 'block' : 'none',
                   }}
                 >
                   <NormalText
@@ -114,7 +114,11 @@ export default class Resources extends Component {
                               color: '#11416D',
                             }}
                           >
-                            <a target="_blank" href="https://humantraffickinghotline.org/chat">
+                            <a
+                              target="_blank"
+                              href="https://humantraffickinghotline.org/chat"
+                              rel="noopener noreferrer"
+                            >
                               Click here to access live chat
                             </a>
                           </span>
@@ -129,6 +133,7 @@ export default class Resources extends Component {
                           >
                             <a
                               target="_blank"
+                              rel="noopener noreferrer"
                               href="mailto:help@humantraffickinghotline.org%20?subject=MA%20Labor%20Trafficking%20Case"
                             >
                               Click here to email the hotline
