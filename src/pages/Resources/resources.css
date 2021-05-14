@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
-/* .resources__container * {
-} */
-
 .resources__container  {
   font-family: 'Roboto', Verdana, Geneva, Tahoma, sans-serif;
   margin-top: 1.2em;
@@ -10,7 +7,6 @@
 
 
 .container {
-  /* grid-column: 2 / span 8; */
   background-color: transparent;
 }
 
@@ -22,8 +18,8 @@
 .category__card {
   background-color: #19578D;
   display: flex;
+  height: 9.4em;
   align-items: center;
-  /* padding: 3em 0 3em 3em; */
 }
 
 .category__text {
@@ -31,13 +27,12 @@
   font-size: 1.9rem;
   font-weight: 300;
   flex: 1;
-  /* margin-right: 3em; */
 }
 
 .category__icon {
   flex: 0.3;
   color: #fff;
-  margin: 2.8em 2.8em 2.8em 2em;
+  margin: 0 2.8em 0 2em;
 }
 
 .category__container {
@@ -49,6 +44,7 @@
 
 .title__container {
   display: inline-block;
+  text-transform: uppercase;
 }
 
 .title__container h2 {
@@ -65,6 +61,37 @@
 .subtext__container h5 {
   font-weight: 700;
   margin: 1.4em 0 2em 0;
+}
+
+.info__card {
+  background-color: var(--primary);
+  margin-bottom: 0.8em;
+  padding: 0.8em 1.4em;
+}
+
+.info__card p {
+  color: #fff;
+}
+
+.info__card a {
+  color: #fff;
+  word-wrap: break-word;
+}
+
+.info__card a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.info__card a:visited {
+  color: #fff;
+}
+
+.subtext__container h4 {
+  font-weight: bolder;
+}
+.subtext__container p {
+  font-weight: 300;
 }
 
 @media (max-width: 767.98px) { 
