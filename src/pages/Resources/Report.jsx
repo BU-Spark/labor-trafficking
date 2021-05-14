@@ -54,7 +54,7 @@ export default class Report extends Component {
                       color: '#11416D',
                     }}
                   >
-                    <a target="_blank" href="https://humantraffickinghotline.org/chat">
+                    <a target="_blank" href="https://humantraffickinghotline.org/chat" rel="noopener noreferrer">
                       Click here to access live chat
                     </a>
                   </span>
@@ -70,6 +70,7 @@ export default class Report extends Component {
                     <a
                       target="_blank"
                       href="mailto:help@humantraffickinghotline.org%20?subject=MA%20Labor%20Trafficking%20Case"
+                      rel="noopener noreferrer"
                     >
                       Click here to email the hotline
                     </a>

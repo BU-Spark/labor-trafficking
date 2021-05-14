@@ -39,7 +39,7 @@ export default class Home extends Component {
         <div class="main__container">
           <div className="card__container">
             <div className="card">
-              <img src="/icons/cards.svg" className="card__icon" />
+              <img alt="prepare" src="/icons/cards.svg" className="card__icon" />
               <div>
                 <Link to="/prepare" className="card__button">
                   <p className="card__title">PREPARE</p>
@@ -48,7 +48,7 @@ export default class Home extends Component {
             </div>
 
             <div className="card">
-              <img src="/icons/palm.svg" className="card__icon" />
+              <img alt="asess" src="/icons/palm.svg" className="card__icon" />
               <div>
                 <Link to="/assess" className="card__button">
                   <p className="card__title">ASSESS</p>
@@ -57,7 +57,7 @@ export default class Home extends Component {
             </div>
 
             <div className="card">
-              <img src="/icons/check.svg" className="card__icon" />
+              <img alt="resources" src="/icons/check.svg" className="card__icon" />
               <div>
                 <Link to="/resources" className="card__button">
                   <p className="card__title">RESOURCES</p>
@@ -70,11 +70,11 @@ export default class Home extends Component {
             <div className="container_s">
               <div className="banner">
                 <span>
-                  <img src="/icons/phone.svg" />
+                  <img alt="call" src="/icons/phone.svg" />
                   Call <a href="tel:1-888-373-7888">1-888-373-7888</a>
                 </span>
                 <span>
-                  <img src="/icons/mobile.svg" />
+                  <img alt="sms" src="/icons/mobile.svg" />
                   <a href="sms:233733&body=BEFREE">Text "BEFREE" to: 233733</a>
                 </span>
               </div>

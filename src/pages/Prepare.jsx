@@ -187,7 +187,11 @@ export default class Prepare extends Component {
                           color: '#11416D',
                         }}
                       >
-                        <a target="_blank" href="https://www.mass.gov/orgs/office-of-court-interpreter-services">
+                        <a
+                          target="_blank"
+                          href="https://www.mass.gov/orgs/office-of-court-interpreter-services"
+                          rel="noopener noreferrer"
+                        >
                           Office of Court Interpreter Services (OCIS)
                         </a>
                       </span>{' '}
@@ -202,6 +206,7 @@ export default class Prepare extends Component {
                         <a
                           target="_blank"
                           href="https://www.languageline.com/paid/personal-interpreter-services-gaw?url=https://www.languageline.com/paid/personal-interpreter-services-gaw&ads_adid=48994643020&ads_cmpid=972166319&ads_creative=236070997915&ads_matchtype=p&ads_network=g&ads_targetid=kwd-297628671103&ttv=2&utm_campaign=Personal%20Interpreter%20-%20Brand&utm_medium=ppc&utm_source=adwords&utm_term=language%20line&gclid=Cj0KCQjwiILsBRCGARIsAHKQWLMaVH3_LhGgKUOVMlJhLw0tK0vXS5_NcqQVp4xA9xi333IKrg4bnCEaAvEHEALw_wcB"
+                          rel="noopener noreferrer"
                         >
                           Language Line
                         </a>
@@ -303,7 +308,11 @@ export default class Prepare extends Component {
                           color: '#11416D',
                         }}
                       >
-                        <a target="_blank" href="http://machildrensalliance.org/locate-a-cac/">
+                        <a
+                          target="_blank"
+                          href="http://machildrensalliance.org/locate-a-cac/"
+                          rel="noopener noreferrer"
+                        >
                           Children’s Advocacy Center
                         </a>
                       </span>{' '}
