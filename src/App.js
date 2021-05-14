@@ -40,6 +40,7 @@ import Home from './pages/Home';
 import NavBar from './components/NavBar';
 import MobileMenu from './components/MobileMenu';
 import Prepare from './pages/Prepare';
+import Shelter from './pages/Resources/Shelter';
 
 class App extends Component {
   constructor(props) {
@@ -1444,6 +1445,7 @@ class App extends Component {
             <Route exact path="/about" component={About} />
             <Route exact path="/statute" component={Statute} />
             <Route exact path="/resources" component={Resources} />
+            <Route exact path="/resources/shelter" component={Shelter} />
           </Switch>
         </div>
         <MobileMenu mobileMenu={this.state.mobileMenu} page={this.state.page} />
